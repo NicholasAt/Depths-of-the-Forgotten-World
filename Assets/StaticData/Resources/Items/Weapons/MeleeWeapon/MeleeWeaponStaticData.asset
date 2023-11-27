@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddc5b6f9ba20134439e4456ecc446adb, type: 3}
+  m_Name: MeleeWeaponStaticData
+  m_EditorClassIdentifier: 
+  ItemConfigs:
+  - _inspectorName: MeleeWeapons_Sword_soulExtinguisher
+    <ItemId>k__BackingField: 1
+    <Icon>k__BackingField: {fileID: 171138705577659461, guid: 8e6e326c5a756cd40ad915f8f4e69d6e, type: 3}
+    <PurchasePrice>k__BackingField: 100
+    <SellingPrice>k__BackingField: 10
+    <CollectedClip>k__BackingField: {fileID: 8300000, guid: 97eb6c417f2c1a64fbfdfe2e7ab7a92e, type: 3}
+    <BuyClip>k__BackingField: {fileID: 8300000, guid: 5ef8cfc6ac4e7bd4ca1d83d9f1554f84, type: 3}
+    <PrefabPiece>k__BackingField: {fileID: 1699344243465704514, guid: 32d81f77ad8be874eac2ca2a0d070a96, type: 3}
+    <Damage>k__BackingField: 5
+    <AttackRadius>k__BackingField: 2
+    <DelayBeforeAttack>k__BackingField: 0.5
+    <DelayBeforeApplyDamage>k__BackingField: 0.17
+    <AttackAnimationName>k__BackingField: AttackSword
+    <PrefabInHand>k__BackingField: {fileID: 1963638621261564676, guid: ad452b7e2ced7484485478fc8df496bc, type: 3}
+  - _inspectorName: MeleeWeapons_Sword_revengeQueen
+    <ItemId>k__BackingField: 2
+    <Icon>k__BackingField: {fileID: -3718929783938772351, guid: 8e6e326c5a756cd40ad915f8f4e69d6e, type: 3}
+    <PurchasePrice>k__BackingField: 400
+    <SellingPrice>k__BackingField: 100
+    <CollectedClip>k__BackingField: {fileID: 8300000, guid: 97eb6c417f2c1a64fbfdfe2e7ab7a92e, type: 3}
+    <BuyClip>k__BackingField: {fileID: 8300000, guid: 5ef8cfc6ac4e7bd4ca1d83d9f1554f84, type: 3}
+    <PrefabPiece>k__BackingField: {fileID: 1699344243465704514, guid: ea2407518bbde18419e7781a9fe21ae1, type: 3}
+    <Damage>k__BackingField: 10
+    <AttackRadius>k__BackingField: 2
+    <DelayBeforeAttack>k__BackingField: 0.5
+    <DelayBeforeApplyDamage>k__BackingField: 0.17
+    <AttackAnimationName>k__BackingField: AttackSword
+    <PrefabInHand>k__BackingField: {fileID: 1963638621261564676, guid: 31903854ddbc7b04893f22b73a800089, type: 3}

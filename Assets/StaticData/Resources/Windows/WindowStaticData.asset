@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74a9bc9fd2e863b4ba037fcb31d1a569, type: 3}
+  m_Name: WindowStaticData
+  m_EditorClassIdentifier: 
+  <UIRoot>k__BackingField: {fileID: 5489003095381707259, guid: 31f1dabd1734f39439ed38b1b878ba19, type: 3}
+  <HUDPrefab>k__BackingField: {fileID: 68610368211856666, guid: f1088f050927dc24983a94eed92695c4, type: 3}
+  <ShopWindowPrefab>k__BackingField: {fileID: 931616616463710896, guid: 5a05e280d8def9a4da34bff76e90b7b4, type: 3}
+  <TutorialWindowPrefab>k__BackingField: {fileID: 1434973887264181941, guid: ad0e0412bf8e0d34780439fc2e26ee88, type: 3}
+  <ShopSlotPrefab>k__BackingField: {fileID: 8652499940702560053, guid: a262df2dad703b841934a986ef05ac79, type: 3}

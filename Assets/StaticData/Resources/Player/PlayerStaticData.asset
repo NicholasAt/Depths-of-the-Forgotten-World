@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ee8dd12477d84446a923f25a0ead6b9, type: 3}
+  m_Name: PlayerStaticData
+  m_EditorClassIdentifier: 
+  <PlayerPrefab>k__BackingField: {fileID: 2812931467928525159, guid: a73a7406f5d8540408a5f6bc81c79a3f, type: 3}
+  <Health>k__BackingField: 10
+  <Money>k__BackingField: 200
+  <Speed>k__BackingField: 25
+  <StairSpeed>k__BackingField: 15
+  <DurationOfImmortality>k__BackingField: 1
+  <DelayMoveAfterDead>k__BackingField: 2
+  <DropItemsRadius>k__BackingField: 1
+  <InteractRadius>k__BackingField: 1.2
+  <DieClip>k__BackingField: {fileID: 8300000, guid: 28c57dfc3802ce54f859b6d7b56a46a3, type: 3}
+  <FootstepsClip>k__BackingField: {fileID: 8300000, guid: ea6569a5cfe6dbb40bc97267c4365e79, type: 3}
+  <MoveStairClip>k__BackingField: {fileID: 8300000, guid: c7051a5d7a6902a48bb95abb888e9ad7, type: 3}
+  <AttackClip>k__BackingField: {fileID: 8300000, guid: f4ce7b5dddb17d84797b365bb9a52854, type: 3}

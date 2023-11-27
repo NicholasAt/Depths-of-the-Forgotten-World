@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 981d3d4de98f33c42b4b11d45a7ab5a5, type: 3}
+  m_Name: EnemyStaticData
+  m_EditorClassIdentifier: 
+  EnemyConfigs:
+  - _inspectorName: Goblin
+    <Health>k__BackingField: 10
+    <Damage>k__BackingField: 2
+    <Speed>k__BackingField: 5
+    <AttackDistance>k__BackingField: 2
+    <AttackDelay>k__BackingField: 0.6
+    <MoneyForKill>k__BackingField: 30
+    <AttackClip>k__BackingField: {fileID: 8300000, guid: 3704fc571a2005341888b74e8c0b25d4, type: 3}
+    <Id>k__BackingField: 1
+    <Prefab>k__BackingField: {fileID: 422878302570875811, guid: 54f5a6001c1aad848a9aa9d85c2fdabe, type: 3}
+  - _inspectorName: Skeleton
+    <Health>k__BackingField: 10
+    <Damage>k__BackingField: 1
+    <Speed>k__BackingField: 5
+    <AttackDistance>k__BackingField: 2
+    <AttackDelay>k__BackingField: 0.6
+    <MoneyForKill>k__BackingField: 20
+    <AttackClip>k__BackingField: {fileID: 8300000, guid: 3704fc571a2005341888b74e8c0b25d4, type: 3}
+    <Id>k__BackingField: 2
+    <Prefab>k__BackingField: {fileID: 4721676019639811825, guid: 93038d51cfa198a409b0b0b69e4c070a, type: 3}

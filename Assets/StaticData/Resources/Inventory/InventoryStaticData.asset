@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5c9bfa0f143eaa4dbd5607006fa7901, type: 3}
+  m_Name: InventoryStaticData
+  m_EditorClassIdentifier: 
+  <SlotsCount>k__BackingField: 6
+  <EnableIcon>k__BackingField: {fileID: 4285387724445503431, guid: c90c6e801bb4a464eacc43569be73c51, type: 3}
+  <DisableIcon>k__BackingField: {fileID: -1140205231270877710, guid: b2a28f00a720f2d49939070fa62b04c6, type: 3}
+  <EmptyIcon>k__BackingField: {fileID: 1297114668885730801, guid: 3010526a82881bf4d9c35717e3764402, type: 3}
+  <InventorySlotPrefab>k__BackingField: {fileID: 6032825774919240237, guid: 1bd35cb8b8e232343bb91b696c64d874, type: 3}
+  <MeleeWeaponUIRefreshSlotPrefab>k__BackingField: {fileID: 5673581767291856176, guid: a9665901c8047c645801b9d1a3a503e0, type: 3}
+  <FoodUIRefreshSlotPrefab>k__BackingField: {fileID: -7506157220834187588, guid: e558a5d48e646df49a9e25c44aee84c9, type: 3}
+  <QuestItemsUIRefreshSlotPrefab>k__BackingField: {fileID: 8966170860712554690, guid: 595f00dac0ff19444bfca869781708fc, type: 3}

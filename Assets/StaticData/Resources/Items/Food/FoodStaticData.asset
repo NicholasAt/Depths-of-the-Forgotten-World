@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e155e16cf345cad43b8eba6a558483f1, type: 3}
+  m_Name: FoodStaticData
+  m_EditorClassIdentifier: 
+  FoodConfigs:
+  - _inspectorName: Food_HealingPlantain
+    <ItemId>k__BackingField: 1000
+    <Icon>k__BackingField: {fileID: 227452199, guid: 8e6e326c5a756cd40ad915f8f4e69d6e, type: 3}
+    <PurchasePrice>k__BackingField: 15
+    <SellingPrice>k__BackingField: 5
+    <CollectedClip>k__BackingField: {fileID: 8300000, guid: 97eb6c417f2c1a64fbfdfe2e7ab7a92e, type: 3}
+    <BuyClip>k__BackingField: {fileID: 8300000, guid: 5ef8cfc6ac4e7bd4ca1d83d9f1554f84, type: 3}
+    <PrefabPiece>k__BackingField: {fileID: 834159506122020111, guid: d92bf8e864245a647961165232bbcc63, type: 3}
+    <HealValue>k__BackingField: 5
+  - _inspectorName: Food_HealingRoot
+    <ItemId>k__BackingField: 1001
+    <Icon>k__BackingField: {fileID: -745677911, guid: 8e6e326c5a756cd40ad915f8f4e69d6e, type: 3}
+    <PurchasePrice>k__BackingField: 25
+    <SellingPrice>k__BackingField: 10
+    <CollectedClip>k__BackingField: {fileID: 8300000, guid: 97eb6c417f2c1a64fbfdfe2e7ab7a92e, type: 3}
+    <BuyClip>k__BackingField: {fileID: 8300000, guid: 5ef8cfc6ac4e7bd4ca1d83d9f1554f84, type: 3}
+    <PrefabPiece>k__BackingField: {fileID: 834159506122020111, guid: 886f7909dd3a62c4eacb486e7734e56f, type: 3}
+    <HealValue>k__BackingField: 5

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hair
+  m_Controller: {fileID: 9100000, guid: 521dbcfa35b35bb40975b5dc959d3c5b, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: c6cdfcb72820eea409e111f80909a8b8, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 6c55659ef3eeab44faf71b9cb82e6bda, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f54cfb0727ff377479b3250304de0e9e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ddbd22219a881d34cb081af9dc255a22, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 179b289e0c0a9e54eb05d05c0b10d7da, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: bac5abe4b2bbe9c4fbca9e1b3d805de6, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 81b244b4b6b304e4aa52da3a040d85e6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2d5b0b9679f4dc34991f5738bbf081cb, type: 2}

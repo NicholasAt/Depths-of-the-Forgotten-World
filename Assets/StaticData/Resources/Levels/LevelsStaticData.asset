@@ -1,0 +1,260 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b556bb49cb63a54398a2f6e607ba91c, type: 3}
+  m_Name: LevelsStaticData
+  m_EditorClassIdentifier: 
+  <DelayLoadNextLevelAfterWin>k__BackingField: 2
+  LevelConfigs:
+  - <LevelKey>k__BackingField: Level 1
+    <NextLevelKey>k__BackingField: Level 2
+    <DisplayedLevelNameWorld>k__BackingField: "\u041F\u043E\u0432\u0435\u0440\u0445\u043D\u044F
+      1"
+    <DisplayedLevelNameHole>k__BackingField: "\u042F\u043C\u0430 1"
+    <IsFinalScene>k__BackingField: 0
+    <PlayerInitialPosition>k__BackingField: {x: -2.8, y: 5.54}
+    ItemsSpawnData:
+      MeleeWeaponData: []
+      FoodData: []
+      QuestItemData: []
+    ShopNpcData:
+    - _inspectorName: Kantar
+      <Id>k__BackingField: 1
+      <Position>k__BackingField: {x: 1.87, y: 5.71}
+      <Items>k__BackingField: 01000000
+    TeleportSpawns:
+    - _inspectorName: Hole
+      <Id>k__BackingField: 2
+      <Position>k__BackingField: {x: -1.62, y: 4.17}
+      <IsToHole>k__BackingField: 1
+      <TeleportPosition>k__BackingField: {x: -1.41, y: -15.030001}
+    - _inspectorName: Stair
+      <Id>k__BackingField: 1
+      <Position>k__BackingField: {x: -1.53, y: -12.7}
+      <IsToHole>k__BackingField: 0
+      <TeleportPosition>k__BackingField: {x: -1.5699999, y: 4.4700003}
+    RewardData:
+      _inspectorName: 
+      <Id>k__BackingField: 0
+      <Position>k__BackingField: {x: 0, y: 0}
+    EnemyData:
+      Configs:
+      - _inspectorName: Skeleton
+        <Id>k__BackingField: 2
+        <CountTo>k__BackingField: 2
+        <CountFrom>k__BackingField: 3
+      <Radius>k__BackingField: 4
+      <Position>k__BackingField: {x: -1.71, y: -19.87}
+  - <LevelKey>k__BackingField: Level 2
+    <NextLevelKey>k__BackingField: Level 3
+    <DisplayedLevelNameWorld>k__BackingField: "\u041F\u043E\u0432\u0435\u0440\u0445\u043D\u044F
+      2"
+    <DisplayedLevelNameHole>k__BackingField: "\u042F\u043C\u0430 2"
+    <IsFinalScene>k__BackingField: 0
+    <PlayerInitialPosition>k__BackingField: {x: -2.8, y: 5.54}
+    ItemsSpawnData:
+      MeleeWeaponData: []
+      FoodData:
+      - _inspectorName: Food_HealingPlantain
+        <Id>k__BackingField: 1000
+        <Position>k__BackingField: {x: 2.97, y: 3.5}
+      - _inspectorName: Food_HealingRoot
+        <Id>k__BackingField: 1001
+        <Position>k__BackingField: {x: -5.34, y: 4.5}
+      QuestItemData:
+      - _inspectorName: QuestItem_Book_FfHallsFfDead
+        <Id>k__BackingField: 2000
+        <Position>k__BackingField: {x: 2.12, y: -17.06}
+    ShopNpcData:
+    - _inspectorName: Kantar
+      <Id>k__BackingField: 1
+      <Position>k__BackingField: {x: 1.87, y: 5.71}
+      <Items>k__BackingField: 01000000e8030000
+    TeleportSpawns:
+    - _inspectorName: Stair
+      <Id>k__BackingField: 1
+      <Position>k__BackingField: {x: -1.53, y: -12.7}
+      <IsToHole>k__BackingField: 0
+      <TeleportPosition>k__BackingField: {x: -1.5699999, y: 4.4700003}
+    - _inspectorName: Hole
+      <Id>k__BackingField: 2
+      <Position>k__BackingField: {x: -1.62, y: 4.17}
+      <IsToHole>k__BackingField: 1
+      <TeleportPosition>k__BackingField: {x: -1.41, y: -15.030001}
+    RewardData:
+      _inspectorName: 
+      <Id>k__BackingField: 0
+      <Position>k__BackingField: {x: 0, y: 0}
+    EnemyData:
+      Configs:
+      - _inspectorName: Skeleton
+        <Id>k__BackingField: 2
+        <CountTo>k__BackingField: 4
+        <CountFrom>k__BackingField: 8
+      <Radius>k__BackingField: 3
+      <Position>k__BackingField: {x: -1.71, y: -19.87}
+  - <LevelKey>k__BackingField: Level 3
+    <NextLevelKey>k__BackingField: Level 4
+    <DisplayedLevelNameWorld>k__BackingField: "\u041F\u043E\u0432\u0435\u0440\u0445\u043D\u044F
+      3"
+    <DisplayedLevelNameHole>k__BackingField: "\u042F\u043C\u0430 3"
+    <IsFinalScene>k__BackingField: 0
+    <PlayerInitialPosition>k__BackingField: {x: -2.8, y: 5.54}
+    ItemsSpawnData:
+      MeleeWeaponData: []
+      FoodData:
+      - _inspectorName: Food_HealingRoot
+        <Id>k__BackingField: 1001
+        <Position>k__BackingField: {x: -5.34, y: 4.5}
+      - _inspectorName: Food_HealingPlantain
+        <Id>k__BackingField: 1000
+        <Position>k__BackingField: {x: 2.97, y: 3.5}
+      - _inspectorName: Food_HealingPlantain
+        <Id>k__BackingField: 1000
+        <Position>k__BackingField: {x: -3.88, y: 1.33}
+      - _inspectorName: Food_HealingRoot
+        <Id>k__BackingField: 1001
+        <Position>k__BackingField: {x: -4.12, y: 2.47}
+      - _inspectorName: Food_HealingPlantain
+        <Id>k__BackingField: 1000
+        <Position>k__BackingField: {x: 4.11, y: 2.28}
+      - _inspectorName: Food_HealingRoot
+        <Id>k__BackingField: 1001
+        <Position>k__BackingField: {x: -5.34, y: 3.28}
+      - _inspectorName: Food_HealingPlantain
+        <Id>k__BackingField: 1000
+        <Position>k__BackingField: {x: 3.05, y: 2.44}
+      - _inspectorName: Food_HealingPlantain
+        <Id>k__BackingField: 1000
+        <Position>k__BackingField: {x: 5.01, y: 1.14}
+      QuestItemData:
+      - _inspectorName: QuestItem_Book_FfHallsFfDead
+        <Id>k__BackingField: 2000
+        <Position>k__BackingField: {x: -0.69, y: -19.06}
+      - _inspectorName: QuestItem_Book_FfHallsFfDead
+        <Id>k__BackingField: 2000
+        <Position>k__BackingField: {x: -2.75, y: -20.11}
+      - _inspectorName: QuestItem_PreciousMetal_Ruby
+        <Id>k__BackingField: 2001
+        <Position>k__BackingField: {x: -1.33, y: -18.06}
+      - _inspectorName: QuestItem_PreciousMetal_Ruby
+        <Id>k__BackingField: 2001
+        <Position>k__BackingField: {x: -3.39, y: -19.11}
+    ShopNpcData:
+    - _inspectorName: Kantar
+      <Id>k__BackingField: 1
+      <Position>k__BackingField: {x: 1.87, y: 5.71}
+      <Items>k__BackingField: 0200000001000000e9030000e8030000d0070000
+    TeleportSpawns:
+    - _inspectorName: Stair
+      <Id>k__BackingField: 1
+      <Position>k__BackingField: {x: -1.53, y: -12.7}
+      <IsToHole>k__BackingField: 0
+      <TeleportPosition>k__BackingField: {x: -1.5699999, y: 4.4700003}
+    - _inspectorName: Hole
+      <Id>k__BackingField: 2
+      <Position>k__BackingField: {x: -1.62, y: 4.17}
+      <IsToHole>k__BackingField: 1
+      <TeleportPosition>k__BackingField: {x: -1.41, y: -15.030001}
+    RewardData:
+      _inspectorName: 
+      <Id>k__BackingField: 0
+      <Position>k__BackingField: {x: 0, y: 0}
+    EnemyData:
+      Configs:
+      - _inspectorName: Skeleton
+        <Id>k__BackingField: 2
+        <CountTo>k__BackingField: 4
+        <CountFrom>k__BackingField: 8
+      - _inspectorName: Goblin
+        <Id>k__BackingField: 1
+        <CountTo>k__BackingField: 4
+        <CountFrom>k__BackingField: 8
+      <Radius>k__BackingField: 3
+      <Position>k__BackingField: {x: -1.71, y: -19.87}
+  - <LevelKey>k__BackingField: Level 4
+    <NextLevelKey>k__BackingField: Level 5
+    <DisplayedLevelNameWorld>k__BackingField: "\u0424\u0438\u043D\u0430\u043B"
+    <DisplayedLevelNameHole>k__BackingField: "\u0424\u0438\u043D\u0430\u043B"
+    <IsFinalScene>k__BackingField: 1
+    <PlayerInitialPosition>k__BackingField: {x: -2.8, y: 5.54}
+    ItemsSpawnData:
+      MeleeWeaponData: []
+      FoodData:
+      - _inspectorName: Food_HealingRoot
+        <Id>k__BackingField: 1001
+        <Position>k__BackingField: {x: 1.97, y: 1.58}
+      - _inspectorName: Food_HealingPlantain
+        <Id>k__BackingField: 1000
+        <Position>k__BackingField: {x: 3.05, y: 2.44}
+      - _inspectorName: Food_HealingRoot
+        <Id>k__BackingField: 1001
+        <Position>k__BackingField: {x: -5.34, y: 4.5}
+      - _inspectorName: Food_HealingPlantain
+        <Id>k__BackingField: 1000
+        <Position>k__BackingField: {x: 3.05, y: 2.44}
+      - _inspectorName: Food_HealingRoot
+        <Id>k__BackingField: 1001
+        <Position>k__BackingField: {x: -5.34, y: 3.28}
+      - _inspectorName: Food_HealingPlantain
+        <Id>k__BackingField: 1000
+        <Position>k__BackingField: {x: 4.11, y: 2.28}
+      - _inspectorName: Food_HealingPlantain
+        <Id>k__BackingField: 1000
+        <Position>k__BackingField: {x: 5.01, y: 1.14}
+      - _inspectorName: Food_HealingPlantain
+        <Id>k__BackingField: 1000
+        <Position>k__BackingField: {x: -3.88, y: 1.33}
+      - _inspectorName: Food_HealingPlantain
+        <Id>k__BackingField: 1000
+        <Position>k__BackingField: {x: 2.97, y: 3.5}
+      - _inspectorName: Food_HealingRoot
+        <Id>k__BackingField: 1001
+        <Position>k__BackingField: {x: -4.12, y: 2.47}
+      QuestItemData:
+      - _inspectorName: QuestItem_Book_FfHallsFfDead
+        <Id>k__BackingField: 2000
+        <Position>k__BackingField: {x: -1.33, y: -18.06}
+      - _inspectorName: QuestItem_Book_FfHallsFfDead
+        <Id>k__BackingField: 2000
+        <Position>k__BackingField: {x: -2.59, y: -18.9}
+    ShopNpcData:
+    - _inspectorName: Kantar
+      <Id>k__BackingField: 1
+      <Position>k__BackingField: {x: 1.87, y: 5.71}
+      <Items>k__BackingField: 0200000001000000e8030000e9030000d0070000
+    TeleportSpawns:
+    - _inspectorName: Hole
+      <Id>k__BackingField: 2
+      <Position>k__BackingField: {x: -1.62, y: 4.17}
+      <IsToHole>k__BackingField: 1
+      <TeleportPosition>k__BackingField: {x: -1.41, y: -15.030001}
+    - _inspectorName: Stair
+      <Id>k__BackingField: 1
+      <Position>k__BackingField: {x: -1.53, y: -12.7}
+      <IsToHole>k__BackingField: 0
+      <TeleportPosition>k__BackingField: {x: -1.5699999, y: 4.4700003}
+    RewardData:
+      _inspectorName: Box
+      <Id>k__BackingField: 1
+      <Position>k__BackingField: {x: -0.6, y: -20.1}
+    EnemyData:
+      Configs:
+      - _inspectorName: Skeleton
+        <Id>k__BackingField: 2
+        <CountTo>k__BackingField: 4
+        <CountFrom>k__BackingField: 8
+      - _inspectorName: Goblin
+        <Id>k__BackingField: 1
+        <CountTo>k__BackingField: 4
+        <CountFrom>k__BackingField: 8
+      <Radius>k__BackingField: 3
+      <Position>k__BackingField: {x: -1.71, y: -19.87}

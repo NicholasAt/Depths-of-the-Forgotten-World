@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dbb384491e435748ac837c467b83e6c, type: 3}
+  m_Name: QuestItemStaticData
+  m_EditorClassIdentifier: 
+  QuestItemConfigs:
+  - _inspectorName: QuestItem_Book_FfHallsFfDead
+    <ItemId>k__BackingField: 2000
+    <Icon>k__BackingField: {fileID: 132877817, guid: 8e6e326c5a756cd40ad915f8f4e69d6e, type: 3}
+    <PurchasePrice>k__BackingField: 200
+    <SellingPrice>k__BackingField: 50
+    <CollectedClip>k__BackingField: {fileID: 8300000, guid: 97eb6c417f2c1a64fbfdfe2e7ab7a92e, type: 3}
+    <BuyClip>k__BackingField: {fileID: 8300000, guid: 5ef8cfc6ac4e7bd4ca1d83d9f1554f84, type: 3}
+    <PrefabPiece>k__BackingField: {fileID: 8079025676539400269, guid: b7c558c704bb36a4d9b85f60832e9baa, type: 3}
+  - _inspectorName: QuestItem_PreciousMetal_Ruby
+    <ItemId>k__BackingField: 2001
+    <Icon>k__BackingField: {fileID: 3158488010477605343, guid: 8e6e326c5a756cd40ad915f8f4e69d6e, type: 3}
+    <PurchasePrice>k__BackingField: 1000
+    <SellingPrice>k__BackingField: 200
+    <CollectedClip>k__BackingField: {fileID: 8300000, guid: 97eb6c417f2c1a64fbfdfe2e7ab7a92e, type: 3}
+    <BuyClip>k__BackingField: {fileID: 8300000, guid: 5ef8cfc6ac4e7bd4ca1d83d9f1554f84, type: 3}
+    <PrefabPiece>k__BackingField: {fileID: 8079025676539400269, guid: 1160a2c7342b3684d96d971a13d21391, type: 3}
